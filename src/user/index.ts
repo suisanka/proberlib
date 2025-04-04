@@ -69,7 +69,7 @@ export class ApiUser {
     return apiUserHasAcceptedAgreement(this._client)
   }
 
-  async acceptAgreement(accept: boolean) {
+  async acceptAgreement(accept: boolean = true) {
     return apiUserAcceptAgreement(this._client, accept)
   }
 
