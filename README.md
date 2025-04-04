@@ -16,4 +16,7 @@ await user.acceptAgreement()
 
 // 获取用户资料
 await user.getProfile()
+
+// 获取 Best 50
+await user.getBestRecords()
 ```
