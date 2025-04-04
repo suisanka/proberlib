@@ -3,9 +3,11 @@
   "type": "module",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "version": "0.1.0",
   "files": [
     "dist"
   ],
+  "license": "MIT",
   "scripts": {
     "build": "pkgroll",
     "dev": "pkgroll --watch",
@@ -13,7 +15,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.com"
   },
   "peerDependencies": {
     "typescript": "^5"
