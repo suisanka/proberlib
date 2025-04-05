@@ -1,4 +1,5 @@
 export * from './auth'
+export * from './basic'
 export * from './dev'
 export * from './endpoint'
 export * from './import'

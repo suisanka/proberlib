@@ -1,13 +1,13 @@
 {
   "name": "maimaidx-proberlib",
   "type": "module",
+  "version": "0.2.0",
+  "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "0.1.0",
   "files": [
     "dist"
   ],
-  "license": "MIT",
   "scripts": {
     "build": "pkgroll",
     "dev": "pkgroll --watch",
